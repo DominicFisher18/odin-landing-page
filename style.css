@@ -47,11 +47,12 @@
 
 .hero-left h1 {
     color: #f9faf8;
-    font-weight: 48px bold;
+    font-weight: 48px bolder;
 }
 
 .hero-left p {
     color: #e5e7eb;
+    font-size: 18px;
 }
 
 .hero-right img {
@@ -59,4 +60,53 @@
     width: 500px;
 }
 
+.hero-left button {
+    background-color: #3882f6;
+    color: #fff;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
 
+.characters h2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 36px;
+}
+
+.characters-list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.characters-list img {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #1F2937;
+}
+
+.characters {
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 0px 200px;
+}
+
+.quote p {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote b {
+    text-align: right;
+    padding-right: 50px;
+    font-size: 25px;
+}

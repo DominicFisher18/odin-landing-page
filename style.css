@@ -90,6 +90,7 @@
 
 .characters {
     text-align: center;
+    margin: 20px;
 }
 
 .quote {
@@ -109,4 +110,43 @@
     text-align: right;
     padding-right: 50px;
     font-size: 25px;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 30px 50px;
+    margin: 80px 400px;
+    border-radius: 10px;
+}
+
+.cta-left {
+    line-height: 20%;
+    margin-left: 100px;
+}
+
+.cta-left h2 {
+    color: #f9faf8;
+}
+
+.cta-left p {
+    color: #e5e7eb;
+}
+
+.cta-button button {
+    color: #fff;
+    border-color: #fff;
+    background-color: #3882f6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: 100px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding: 15px;
 }
